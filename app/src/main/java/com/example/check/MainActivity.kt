@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
             val intent = Intent(this, CREARTAREA::class.java)
             startActivity(intent)
+            // hola mundo
         }
 
     }
